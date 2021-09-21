@@ -27,7 +27,7 @@
 
 
 input, textarea {
-    background-color:#f0dde8;
+    background-color:#f3d7e7;
     border: none;
 
   }
@@ -45,7 +45,9 @@ input, textarea {
     color: black;
 }
 
-
+.mat-card{
+    height: 70vh;
+}
 
 
 

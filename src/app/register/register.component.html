@@ -6,38 +6,44 @@
                     <div class="col-6">
                         <h1><strong>Logo</strong></h1>
                     </div>
-                    <div class="col-2"> <button mat-stroked-button style="background-color:#D11C7E; color: white;" routerLink="/Login">Login</button></div>
-                    <div class="col-2"> <button mat-stroked-button routerLink="/Register">Register</button></div>
+                    <div class="col-2"> <button mat-stroked-button routerLink="/Login">Login</button></div>
+                    <div class="col-2"> <button mat-stroked-button style="background-color:#D11C7E; color: white;"routerLink="/Register">Register</button></div>
                 </div>
                 <div class="row">
                     <h3 style="color: #D11C7E;"><strong>Welcome!</strong></h3>
                 </div>
                 <div class="row">
-                    <p>Sigin in Your Account</p>
+                    <p>Create An Account</p>
                 </div>
                 <div class="row">
                     <form>
                         <div class="row">
+                            <label for="fname">Full Name</label>
+                        </div>
+                        <div class="row" style="width: 90%;height: 10%; padding-top: 2%;">
+                            <input type="text" id="fname" name="fname" placeholder="Full Name">
+                        </div>
+                        <div class="row"style="padding-top: 3%;">
                             <label for="fname">Email Address</label>
                         </div>
-                        <div class="row" style="width: 90%;height: 12%; padding-top: 2%;">
-                            <input type="text" id="fname" name="fname" placeholder="Email Address">
+                        <div class="row" style="width: 90%;height: 10%; padding-top: 2%;">
+                            <input type="email" id="fname" name="fname" placeholder="Email Address">
                         </div>
                         <div class="row" style="padding-top: 3%;">
                             <label for="fname">Password</label>
                         </div>
-                        <div class="row" style="width: 90%;height: 12%; padding-top: 2%;">
-                            <input type="text" id="fname" name="fname" placeholder="Password">
+                        <div class="row" style="width: 90%;height: 10%; padding-top: 2%;">
+                            <input type="password" id="fname" name="fname" placeholder="Password">
                         </div>
 
                         <div class="row" style="padding-top: 5%;">
                             <div class="col">
-                                <mat-checkbox class="example-margin">Remember me</mat-checkbox>
+                                <mat-checkbox class="example-margin">I agreed terms & condition</mat-checkbox>
                             </div>
-                            <div class="col"><a href="" class="forget" routerLink="/Forget">Forget Password?</a></div>
+                            <!-- <div class="col"><a href="" class="forget">Forget Password?</a></div> -->
                         </div>
                         <div class="row" style="padding-top: 5%;">
-                            <button mat-raised-button  style="width: 85%;background-color:#D11C7E; color: white;" routerLink="/Account">Login</button>
+                            <button mat-raised-button  style="width: 85%;background-color:#D11C7E; color: white;" routerLink="/Register">Register</button>
                         </div>
                         <div class="row" style="padding-top: 5%;">
                             <p>Help & Support</p>
